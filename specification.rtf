@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 I propose to write a web-based app for elections in small groups.\
+\
+I'll explain it with a user case:\
+\
+A fraternity is holding elections to elect a new president. There are 5 people running and nobody is guaranteed to get a majority. With one-vote-per person and winner-take-all system, people are inclined to vote strategically, i.e. 
+\i against
+\i0  their least favorite candidate instead of 
+\i for 
+\i0 their favorite.\
+\
+Luckily, there are other systems out there, but they take more infrastructure and aren't very secure with casual elections. There may be difficulty in counting votes accurately, or absentees. Enter the voting web app.\
+\
+The moderator creates a page and enters in the candidates. He then enters in the emails of those he wants to send the poll too. He also has other options like a time limit for accepting votes, maximum/minimum number of votes allowed, preferred voting system (winner take all, multiple winners, preferential vote, etc.) or others.\
+\
+Each email address gets an email explaining the rules and a unique URL. This URL will take them to a voting page that displays the options. (Mobile version of the page too). People can either radio button their favorite or have a text box to text-rank them. The users click submit and their vote is locked.\
+\
+The moderator can get the votes by returning to his unique mod page. Voting ends when either the moderator ends it, the time runs out, or the min number of votes to make a certain decision has been achieved.\
+\
+The app then displays the winner!\
+\
+----\
+\
+Special consideration must be taken with user authentication and avoiding spamming the system. No vote will be accessible to the public, only with a unique URL (like YouTube private videos) and perhaps a passcode. The generation of URLs is important. There must be a check against colliding database entries.}
